@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.bg{
+    height: 100vh;
+    background-image: url("bg2150.jpg");
+    background-size: cover;
+}
+@media only screen and (max-width: 1400px){
+    .wrapper .bg {
+        background-image: url("bg1400.jpg");
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .wrapper .bg {
+        background-image: url("bg750.jpg");
+    }
+}
