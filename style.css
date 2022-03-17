@@ -21,11 +21,34 @@ body{
     .wrapper .bg {
         background-image: url("bg1400.jpg");
     }
+    .wrapper #logo{
+        top: 45%;
+        left: 40.5%;
+        position: absolute;
+    }
+    .wrapper h1{
+            top: 52%;
+            left: 10%;
+            right: 10%;
+            position: absolute;
+    }
+    
 }
 
 @media only screen and (max-width: 750px){
     .wrapper .bg {
         background-image: url("bg750.jpg");
+    }
+    .wrapper #logo{
+        top: 35%;
+        left: 33%;
+        position: absolute;
+    }
+    .wrapper h1{
+            top: 40%;
+            left: 10%;
+            right: 10%;
+            position: absolute;
     }
 }
 
@@ -42,11 +65,29 @@ body{
     max-width: none;
     height: 50px;
     top:16px;
-    right:16px;
+    right:40px;
     background-color: #4e4a59;
     border: 0;
     color: white;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-size: 18px;
     line-height: 18px;
+}
+
+#logo{
+    width: 180px;
+    height: 55px;
+    top: 59%;
+    left: 45.3%;
+    position: absolute;
+}
+
+h1{
+    font-family: Avenir, sans-serif;
+    font-size: 28px;
+    color: white;
+    top: 67%;
+    left: 36.5%;
+    position: absolute;
+    text-align: center;
 }
