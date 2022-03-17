@@ -36,6 +36,18 @@ body{
         top: 65%;
         left: 31%;
     }
+    .wrapper #mensal{
+        top: 75%;
+        left: 32%;
+    }
+    .wrapper #barra{
+        top: 75%;
+        left: 50%;
+    }
+    .wrapper #anual{
+        top: 75%;
+        left: 51%;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -56,6 +68,21 @@ body{
         width: 100%;
         top: 55%;
         left: 20%;
+    }
+    .wrapper #mensal{
+        font-size: 14px;
+        top: 65%;
+        left: 9%;
+    }
+    .wrapper #barra{
+        font-size: 14px;
+        top: 65%;
+        left: 51%;
+    }
+    .wrapper #anual{
+        font-size: 14px;
+        top: 65%;
+        left: 53%;
     }
 }
 
@@ -118,6 +145,29 @@ h1{
     font-size: 18px;
     line-height: 18px;
     width: 100%;
-    top:77%;
-    left:31%;
+    top:75%;
+    left:32%;
+}
+
+.letrasPequenas{
+    position: absolute;
+    font-family: Avenir, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+#mensal{
+    top: 85%;
+    left: 38%;
+}
+
+#anual{
+    top: 85%;
+    left: 51%;
+}
+
+#barra{
+    top: 85%;
+    left: 50.5%;
 }
