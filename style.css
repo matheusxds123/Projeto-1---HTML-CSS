@@ -84,6 +84,10 @@ body{
         top: 65%;
         left: 53%;
     }
+    .wrapper .seta{
+        top: 75%;
+        left: 44%;
+    }
 }
 
 .botaoEntrar{
@@ -170,4 +174,12 @@ h1{
 #barra{
     top: 85%;
     left: 50.5%;
+}
+
+.seta{
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 93%;
+    left: 49%;
 }
