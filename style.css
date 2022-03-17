@@ -23,16 +23,19 @@ body{
     }
     .wrapper #logo{
         top: 45%;
-        left: 40.5%;
-        position: absolute;
+        left: 43.5%;
     }
     .wrapper h1{
             top: 52%;
             left: 10%;
             right: 10%;
-            position: absolute;
     }
-    
+    .wrapper .botaoAssine{
+        max-width: 500px;
+        width: 100%;
+        top: 65%;
+        left: 31%;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -42,13 +45,17 @@ body{
     .wrapper #logo{
         top: 35%;
         left: 33%;
-        position: absolute;
     }
     .wrapper h1{
             top: 40%;
             left: 10%;
             right: 10%;
-            position: absolute;
+    }
+    .wrapper .botaoAssine{
+        max-width: 300px;
+        width: 100%;
+        top: 55%;
+        left: 20%;
     }
 }
 
@@ -90,4 +97,27 @@ h1{
     left: 36.5%;
     position: absolute;
     text-align: center;
+}
+
+.botaoAssine{
+    cursor:pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b00d6;
+    color: white;
+    border: 0;
+    height: 68px;
+    max-width: 700px;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    width: 100%;
+    top:77%;
+    left:31%;
 }
